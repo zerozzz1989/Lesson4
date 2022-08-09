@@ -16,6 +16,7 @@ public class Task1 {
         den.lastName = "Ale";
         den.displayInfo();
 
+
     }
 }
 class Human{
