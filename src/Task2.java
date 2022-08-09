@@ -1,5 +1,6 @@
 public class Task2 {
-    public class Boxer {
+}
+   /* public class Boxer {
         public int age;
         public int weight;
         public int strength;
@@ -11,7 +12,7 @@ public class Task2 {
         }
 
         public boolean fight(Boxer anotherBoxer) {
-            // write your code here
+            System.out.println("hello");
         }
 
         public static void main(String[] args) {

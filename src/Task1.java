@@ -1,37 +1,32 @@
 public class Task1 {
     public static void main(String[] args) {
-
         Human den = new Human(); // создаэмо обьэкт
-
         // данні які ми присвоюємо
         den.weight = 50;
         den.age = 33;
         den.firstName = "Anna";
         den.lastName = "Ale";
+        den.height = 150;
         den.displayInfo();
 
         den.weight = 75;
         den.age = 33;
         den.firstName = "Den";
         den.lastName = "Ale";
+        den.height = 180;
         den.displayInfo();
-
-
     }
 }
 class Human{
-
     int weight; // вага
     int age;        // вік
     String firstName;    // ім'я
     String lastName;    // прізвище
     int height; //зріст
     void displayInfo(){
-        System.out.printf("\tHumans: \n\tWeight: %s\n \tAge: %d \n \tFirst Name: %s \n \tLast Name: %s \n  ", weight, age, firstName, lastName);
+        System.out.printf("\tHumans: \n\tWeight: %s\n \tAge: %d \n \tFirst Name: %s \n \tLast Name: %s \n \tHeight: %s \n ", weight, age, firstName, lastName, height);
     }
 }
-
-
 
 /*
 Create a class "Human". A human should have the following attributes: weight, age, first name, last name, height.
