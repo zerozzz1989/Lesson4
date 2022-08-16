@@ -1,6 +1,25 @@
 public class Task1 {
     public static void main(String[] args) {
-        Human den = new Human(); // создаэмо обьэкт
+        // Human den = new Human(); // створюємо об'єкт
+
+        Human myBox = new Human();
+
+
+        //void displayInfo() {
+        //System.out.printf("\tHumans: \n\tWeight: %s\n \tAge: %d \n \tFirst Name: %s \n \tLast Name: %s \n \tHeight: %s \n ", weight, age, firstName, lastName, height);
+        System.out.println("weight = " + myBox.weight);
+        System.out.println("age = " + myBox.age);
+        System.out.println("firstName = " + myBox.firstName);
+        System.out.println("lastName = " + myBox.lastName);
+        System.out.println("height = " + myBox.height);
+
+    }
+}
+
+
+
+
+        /*
         // данні які ми присвоюємо
         den.weight = 50;
         den.age = 33;

@@ -1,36 +1,20 @@
+
+
 public class Task3 {
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            Box myBox = new Box(); // создание объекта
-
-        /*
-        // данні які ми присвоюємо
-        den.weight = 50;
-        den.age = 33;
-        den.firstName = "Anna";
-        den.lastName = "Ale";
-        den.displayInfo();
-
-        den.weight = 75;
-        den.age = 33;
-        den.firstName = "Den";
-        den.lastName = "Ale";
-        den.displayInfo();
-        */
-/*
-        class Human {
-
-            int weight; // вага
-            int age;        // вік
-            String firstName;    // ім'я
-            String lastName;    // прізвище
-            int height; //зріст
-
-            void displayInfo()
-            */
-            {
-                System.out.printf("\tHumans: \n\tWeight: %s\n \tAge: %d \n \tFirst Name: %s \n \tLast Name: %s \n  \tHeight: %s \n", myBox.weight, myBox.age, myBox.firstName, myBox.lastName, myBox.height);
-            }
-        }
+        System.out.println("Hello");
     }
+}
+        /*
+Create 3 different classes to demonstrate the relationships "has-a" and "uses-a". They can be anything you want.
+For example: Car - Engine - Wheels
+Створіть 3 різні класи, щоб продемонструвати зв’язки «has-a» і «uses-a». Вони можуть бути як завгодно.
+Наприклад: автомобіль – двигун – колеса
 
+Dependency(uses-a)
+Aggregation(has-a)
+Inheritance
+
+
+         */

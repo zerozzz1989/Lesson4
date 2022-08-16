@@ -1,6 +1,8 @@
+/*
 public class Task2 {
-}
-   /* public class Boxer {
+
+
+    public static class Boxer {
         public int age;
         public int weight;
         public int strength;
@@ -46,4 +48,8 @@ public class Boxer {
 
     }
 }
- */
+Requirements:
+a) if ourBoxer.fight(anotherBoxer) returns true, then anotherBoxer.fight(outBoxer) should return false;
+a) якщо ourBoxer.fight(anotherBoxer) повертає true, тоді anotherBoxer.fight(outBoxer) має повертати false;
+
+    */
