@@ -1,4 +1,4 @@
-/*
+
 public class Task2 {
 
 
@@ -14,7 +14,11 @@ public class Task2 {
         }
 
         public boolean fight(Boxer anotherBoxer) {
-            System.out.println("hello");
+            //  int incStr = this.strength>anotherBoxer.strength ?1:0;
+            //int incStr = this.strength>anotherBoxer.strength ?1:0;
+            int incStr = this.strength > anotherBoxer.strength ? 1 : 0;
+            return (incStr) > 0;
+
         }
 
         public static void main(String[] args) {
