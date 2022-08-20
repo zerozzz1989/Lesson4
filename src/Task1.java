@@ -1,50 +1,13 @@
+//OK
 public class Task1 {
     public static void main(String[] args) {
-        // Human den = new Human(); // створюємо об'єкт
+        Human human1 = new Human(78, 23, 176, "Alex", "Bobr");
+        Human human2 = new Human(82, 56, 167, "Danil", "Proh");
 
-        Human myBox = new Human();
-
-
-        //void displayInfo() {
-        //System.out.printf("\tHumans: \n\tWeight: %s\n \tAge: %d \n \tFirst Name: %s \n \tLast Name: %s \n \tHeight: %s \n ", weight, age, firstName, lastName, height);
-        System.out.println("weight = " + myBox.weight);
-        System.out.println("age = " + myBox.age);
-        System.out.println("firstName = " + myBox.firstName);
-        System.out.println("lastName = " + myBox.lastName);
-        System.out.println("height = " + myBox.height);
-
+        System.out.println(human1);
+        System.out.println(human2);
     }
-}
 
-
-
-
-        /*
-        // данні які ми присвоюємо
-        den.weight = 50;
-        den.age = 33;
-        den.firstName = "Anna";
-        den.lastName = "Ale";
-        den.height = 150;
-        den.displayInfo();
-
-        den.weight = 75;
-        den.age = 33;
-        den.firstName = "Den";
-        den.lastName = "Ale";
-        den.height = 180;
-        den.displayInfo();
-    }
-}
-class Human{
-    int weight; // вага
-    int age;        // вік
-    String firstName;    // ім'я
-    String lastName;    // прізвище
-    int height; //зріст
-    void displayInfo(){
-        System.out.printf("\tHumans: \n\tWeight: %s\n \tAge: %d \n \tFirst Name: %s \n \tLast Name: %s \n \tHeight: %s \n ", weight, age, firstName, lastName, height);
-    }
 }
 
 /*

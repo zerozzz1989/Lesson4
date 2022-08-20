@@ -1,17 +1,13 @@
-/*
+
 public class Task7 {
     public static void main(String[] args) {
-         int den =  // створюємо об'єкт
-        den.weight = 50;
-        den.age = 33;
-        den.firstName = "Anna";
-        den.lastName = "Ale";
-        den.height = 150;
-        den.displayInfo();
+        Rocket rocket1 = new Rocket();
+        Rocket rocket2 = new Rocket(20000, 5, "Big B Dragon X2");
 
-
-
-
+        System.out.println(rocket1);
+        System.out.println(rocket2);
+    }
+}
 
 
 

@@ -1,24 +1,16 @@
 public class Task10 {
     public static void main(String[] args) {
 
-        System.out.println(sum(2, 3));          // 5
-        System.out.println(sum(4.5, 3.2));      // 7.7
 
+        OverloadingExample overloadingExample = new OverloadingExample();
+
+        System.out.println(overloadingExample.plus(1, 2));
+        System.out.println(overloadingExample.plus(1.0, 2.5));
+        System.out.println(overloadingExample.plus(1.98f, 2.5f));
+        System.out.println(overloadingExample.plus("First", "second"));
     }
 
-    static int sum(int x, int y) {
-
-        return x + y;
     }
-
-    static double sum(double x, double y) {
-
-        return x + y;
-    }
-
-
-}
-
 
 
 /*
